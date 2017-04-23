@@ -8,13 +8,13 @@
       "build_source_folder": "716test",
       "build_output_subfolder": "716test",
       "locale": "de-de",
-      "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
-      }
+      },
+      "version": 0
     }
   ],
   "notification_subscribers": [],
@@ -38,5 +38,11 @@
       }
     }
   ],
-  "need_generate_pdf_url_template": false
+  "branch_target_mapping": {
+    "live": [
+      "Publish",
+      "Pdf"
+    ]
+  },
+  "need_generate_pdf_url_template": true
 }
